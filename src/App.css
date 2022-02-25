@@ -1,0 +1,95 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.bio {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin: 16px 8px 0px 8px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin: 16px 30px;
+  font-size: 20px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background: #5500aa;
+box-shadow:  -5px 5px 6px #2d005a,
+             5px -5px 6px #7d00fa;
+}
+
+.waveCounter{
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  text-size: 15px;
+  margin: 12px 8px 0px 8px;
+}
+
+.waves{
+  border-radius: 8px;
+  margin: 18px 30px; 
+  padding: 12px;
+background: linear-gradient(145deg, #3b0075, #320062);
+box-shadow:  5px 5px 10px #210041,
+             -5px -5px 10px #4d0099;
+}
+
+.waves *{
+  font-size: 18px;
+  background: #340069;
+  margin: 3px;
+  color: white;
+}
+
+.log-heading{
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 30px;
+  margin-left: 10px;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.messageBox{
+  margin-top: 14px;
+  padding: 15px;
+  font-size: 17px;
+  border-style: none;
+  border-radius: 5px;
+  background: #37006d;
+  font-family: 'myFont', Arial, Helvetica, sans-serif;
+  box-shadow: inset 7px 7px 14px #280050,
+              inset -7px -7px 14px #46008a;
+}
+
+.messageBox::placeholder{
+  font-size: 17px;
+  color: #dedede;
+  font-family: 'myFont', Arial, Helvetica, sans-serif;
+  opacity: 1; /* Firefox */
+}
+
+.minningStatus{
+  text-align: center;
+  color: orange;
+}
